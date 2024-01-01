@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "myTEI.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="it">
+<!-- INIZIO HEADER -->
+	<!-- informazioni sul file, non sul testo originale -->
+	<fileDesc>
+		<titleStmt>
+			<title>I diari di Emanuele Artom</title>
+		</titleStmt>
+		<editionStmt>
+			<edition>Edizione digitale 	
+				<date when="2023">dicembre 2023</date>
+			</edition>
+			<respStmt>
+				<resp>Conversione TEI a cura di </resp>
+				<persName xml:id="VB">Valerio Bertolone</persName>
+			</respStmt>
+			<respStmt>
+				<resp>,progetto coordinato dal </resp>
+				<persName xml:id="AMDG">prof. Angelo Mario Del Grosso</persName>
+			</respStmt>
+		</editionStmt>
+		<publicationStmt>
+			<publisher>Università di Pisa</publisher>
+			<pubPlace>Pisa, PI</pubPlace>
+			<address>
+				<postCode>56126</postCode>
+				<name>Italia</name>
+			</address>
+		</publicationStmt>
+
+		<notesStmt>
+			<note xml:id ="termini">
+				<list type="Terminologia" rend="numbered">
+					<label>
+						<term xml:id="crv" xml:lang="fr">Corvèe</term>
+						<term ref="#crv" xml:lang="it">Corvata</term>
+					</label>
+					<item n="1">
+						<gloss target="#crv" source="https://www.treccani.it/vocabolario/corvee/">
+						Corvèe: Servizio di fatica assegnato a soldati.
+						</gloss>
+					</item>
+				</list>
+			</note>
+			<note xml:id ="persons">
+				<listPerson>
+					<person xml:id="FRD">
+						<persName role="partigiana">
+							<ref xml:lang="it" target="https://www.museotorino.it/view/s/6c97d64061af41c19c2f1035df652142"/>
+							<forename>Frida</forename>
+							<surname>Malan</surname>
+						</persName> 
+					</person>
+					<person xml:id="CHMB">
+						<persName role="ministro">
+							<ref xml:lang="it" target="https://www.treccani.it/enciclopedia/arthur-neville-chamberlain_(Enciclopedia-Italiana)/"/>
+							<forename>Arthur Neville</forename>
+							<surname>Chamberlain</surname>
+						</persName>
+					</person>
+					<person xml:id="AR">
+						<persName role="ministro">
+							<ref xml:lang="it" target="https://www.treccani.it/enciclopedia/aristofane_%28Enciclopedia-Italiana%29/"/>
+							<forename>Aristofane</forename>
+						</persName>
+					</person>
+				</listPerson>
+			</note>
+			<note xml:id ="place">
+				<listPlace>
+					<place xml:id="BB">
+						<placeName>Bobbio</placeName>
+						<settlement>Piacenza</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="TP">
+						<placeName>Torre Pellice</placeName>
+						<settlement>Torino</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="LSR">
+						<placeName>Luserna</placeName>
+						<settlement>Trento</settlement>
+						<country>Italia</country>
+					</place>
+				</listPlace>
+			</note>
+			<note xml:id ="libro">
+				<listBibl>
+					<bibl xml:id="fisch">
+						<author ref="#GC">
+							<forename>Giuseppe</forename>
+							<surname>Cassone</surname> 
+						</author>
+						<title type="main">Il fischietto</title>
+						<pubPlace>
+							<placeName xml:id="tn">Torino</placeName>
+						</pubPlace>
+						<date when="1848">1848</date>
+					</bibl>
+				</listBibl>
+			</note>
+			<note xml:id ="Org">
+				<listOrg>
+					<org>
+						<orgName>Partito d'Azione</orgName>
+						<desc>Partito politico italiano di centro-sinistra fondato nel 1942.</desc>
+					</org>
+				</listOrg>
+			</note>
+    	</notesStmt> 
+
+		<!-- riferimenti alla fonte dalla quale è tratto il testo -->
+		<sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<settlement>Milano</settlement> 
+					<institution ref="http://digital-library.cdec.it/cdec-web/">Fondazione Centro di Documentazione Ebraica Contemporanea CDEC Onlus</institution>
+					<repository></repository>
+				</msIdentifier>
+				
+				<!-- descrizione generalità del manoscritto-->
+				<msContents>
+					<msItem>
+						<!-- il contenuto del manoscritto-->
+						<title>Diari</title>
+						<author ref="https://it.wikipedia.org/wiki/Emanuele_Artom">Emanuele Artom</author>
+						
+						<textLang mainLang="it">Italiano</textLang>
+						
+						<docImprint> 
+			
+							<date from="1940-01" to="1944-02">Gennaio 1940 - Febbraio 1944</date>
+			
+						</docImprint>
+					</msItem>
+				</msContents>
+				
+				<physDesc>
+					<!-- descrizione fisica del manoscritto-->
+					<objectDesc>
+						<supportDesc>
+							<!-- descrizione del materiale fisico-->
+							<support>scritto su
+								<material>carta</material>
+							</support>
+							<extent>174 pagine</extent>
+							<condition>Il diario si presenta in condizioni discrete e, nonostante i segni del tempo, rimane ben leggibile.
+								Si alternano gli utilizzi di matita e penna, come testimoniano le evidenti macchie d'inchiostro.
+							</condition>
+						</supportDesc>
+						<!-- descrizione dell'impaginazione-->
+						<layoutDesc>
+							<layout columns="1" ruledLines="5 30">
+								<p>La maggior parte delle pagine si compone di 22 righe, altre pagine arrivano ad averne all'incirca 30,
+								mentre altre ancora presentano solamente poche righe.</p>
+							</layout>
+						</layoutDesc>
+					</objectDesc>
+					<handDesc>
+						<p>Scritto da una sola mano, quella dell'autore.</p>
+					</handDesc>
+					<typeDesc>
+						<p>Scritto in corsivo, non sempre di facile comprensione. 
+						Sono presenti note a margine, correzioni e cancellature.</p>
+					</typeDesc>
+				</physDesc>
+
+				<!-- storia del manoscritto-->
+				<history>
+					<origin>
+						<p>Il manoscritto è opera di
+						
+							<persName>Emanuele Artom</persName> e 
+						riguarda l'esperienza partigiana dell'autore da
+					
+							<date from="1940-01" to="1944-02">gennaio 1940 a febbraio 1944.</date>   
+					
+						</p>
+					</origin>
+
+					<!-- informazioni sul processo e l'acquisizione del documento da parte dell'istituzione-->
+					<acquisition>Il documento è stato donato alla
+					
+						<orgName ref="http://digital-library.cdec.it/cdec-web/">Fondazione Centro di Documentazione Ebraica Contemporanea CDEC Onlus.</orgName>
+		 
+					</acquisition>
+				</history>
+			</msDesc>
+		</sourceDesc>
+	</fileDesc>
+
+	<!-- descrizione degli aspetti non bibliografici del testo -->
+	<profileDesc>
+		<langUsage>
+			<language ident="it">Italiano</language>
+		</langUsage>
+		<textDesc>
+			<!-- mezzo attraverso cui il testo è trasmesso -->
+			<channel mode="w"/>
+			<!-- info riguardanti la completezza di un testo -->
+			<constitution type="single"/>
+			<!-- testo originale -->
+			<derivation type="original"/>
+			<!-- contesto sociale nel quale è stato scritto o per cui è rivolto -->
+			<domain type="domestic"/>
+			<!-- testo immaginario o non immaginario -->
+			<factuality type="fact"/>
+			<!-- monologo sotto forma di diario rivolto ad una sola persona, il lettore -->
+			<interaction type="none" active="single" passive="self"/>
+			<!-- testo spontaneo -->
+			<preparedness type="none"/>
+			<!-- scopo del testo e livello -->
+			<purpose type="inform" degree="high"/>
+		</textDesc>
+
+		<!-- contesto nel quale si trova il testo -->
+		<settingDesc>
+			<setting>
+				<p>
+					Testi registrati nel 
+					<orgName ref="http://digital-library.cdec.it/cdec-web/">Centro di Documentazione Ebraica Contemporanea CDEC Onlus</orgName> di 
+					<placeName>Milano</placeName>, <country>Italia</country>.
+					<time>
+						<date when="1966">1966</date>
+					</time>
+				</p>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+
+</teiHeader>
+		<!-- FINE HEADER -->
+
+		<!-- IMMAGINI DELLE PAGINE-->
+		<facsimile>
+			<!-- PAGINA 151-->
+			<surface>
+			<graphic xml:id="p151" url='img/p151.jfif' width='754px' height='1024px' />
+			</surface>
+			<!-- PAGINA 152-->
+			<surface>
+			<graphic xml:id="p152" url='img/p152.jfif' width='754px' height='1024px' />
+			</surface>
+			<!-- PAGINA 153-->
+			<surface>
+			<graphic xml:id="p153" url='img/p153.jfif' width='754px' height='1024px' />
+			</surface>
+		</facsimile>
+
+		<!-- INIZIO BODY -->
+		<text>
+			<body>
+
+				<!-- Prima pagina -->
+
+				<pb n="151" facs="img/p151.jfif"/>
+					<ab xml:id="p-151">
+						<lb n="1"/>9 febbraio.
+						<lb n="2"/>Per la prima volta non ho tempo di scrivere 
+						<lb n="3"/>quasi nulla sulle vicende degli 
+						<lb n="4"/>ultimi due giorni. L'altro ieri mi trovai 
+						<lb n="5"/>con Rob. (Roberto). Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
+						<lb n="6"/>parte delle armi prese a Bobbio, a patto 
+						<lb n="7"/>che gli ostaggi non (danneggiata) fossero uccisi e la 
+						<lb n="8"/>valle (danneggiato) rispettata (/danneggiata). Condizioni che mi semb-
+						<lb n="9" break="no"/>rano inaccettabili; mi dice di aver 
+						<lb n="10"/>temuto una campagna antivaldese, 
+						<lb n="11"/>come quella contro gli ebrei. (crossato) A differ (/crossato)
+						<lb n="12"/>Non so come Giorgio A. (Agosti) abbia 
+						<lb n="13"/>accettato simili patti, ma con Rob.	(Roberto) 
+						<lb n="14"/>è impossibile discutere; anch'] io ho 
+						<lb n="15"/>finito per approvarlo, salvo ad essere 
+						<lb n="16"/>pentitissimo appena ci siamo lasciati.
+						<lb n="17"/>Per non compromettere il partito, si 
+						<lb n="18"/>è presentato ai fascisti come un ufficiale 
+						<lb n="19"/>Badogliano:	trucco piuttosto meschino e 
+						<lb n="20"/>non so come abbia potuto riuscire
+						<lb n="21"/>dato che tutti conoscono Torre Pellice
+						<lb n="22"/>come uno dei nostri centri più impor-
+						<lb n="23"/>-tanti. (Incerto) Vedo (/Incerto) poi Giorgio A. (Agosti) piuttosto 
+						<lb n="24"/>abbattuto. (crossato) cre (/crossato) (illeggibile: Cancellato)(/illeggibile) mi chiede se approva-
+						<lb n="25"/>vo il trattato; forse anche lui ram-
+					</ab>
+				
+
+				<pb n="151" facs="img/p151.jfif"/>
+					<ab xml:id="p-151">
+						<lb n="1"/>maricava di	aver ceduto. Con Gu. (Gustavo)
+						<lb n="1"/>ceno, dormo, faccio colazione da
+						<lb n="1"/>contadini gentilissimi e ospitali;
+						<lb n="1"/>Poi, (crossato) al (/crossato) la mattina dopo, cioè ieri, 
+						<lb n="1"/>una signora mi fa da battistrada 
+						<lb n="1"/>fino al ponte di (incerto) (crossato) Bibbro (/crossato) (Incerto) Lusernetta,
+						<lb n="1"/>per assicurarsi che la via sia
+						<lb n="1"/>sgombra. Da	Martina la storia 
+						<lb n="1"/>di Lombardini è popolarissima: uno 
+						<lb n="1"/>(crossato) uno (/crossato) tocca un	compagno, che gli 
+						<lb n="1"/>chiede: «Hai imparato da L (Lombardini)»? Allora
+						<lb n="1"/>dico di essere giunto proprio per 
+						<lb n="1"/>(crossato) trovare l' (/crossato) fare un'inchiesta e mi
+						<lb n="1"/>raccontano che 3 volte di seguito, 
+						<lb n="1"/>mentre a tavola spiegava (crossato) il (/crossato) l'orga- 
+						<lb n="1"/>nizzazione del Fr. N. (Fronte nazionale) (aggiunto sopra) L. (/aggiunto sopra) aveva cercato 
+						<lb n="1"/>di aprire i calzoni del proprio vi-
+						<lb n="1"/>cino e poi gli aveva proposto di 
+						<lb n="1"/>andare a letto insieme. Lo scandalo 
+						<lb n="1"/>si è diffuso a Vacera e agli Ivert.
+						<lb n="1"/>A Rorà saluto Lo B. (Bue) che, (incertezza) (crossato) carro (/crossato) (/incertezza)
+						<lb n="1"/>sfuggito all'arresto pochi giorni fa, 
+						<lb n="1"/>abbandona T. (Torre) Pellice. Con lui 
+					</ab>
+				
+				
+				
+				
+
+				<pb n="151" facs="img/p151.jfif"/>
+					<ab xml:id="p-151">
+						la valle perde il migliore elemento. 
+						Ci salutiamo piuttosto commossi; 
+						incerti se ci vedremo ancora. 
+						Lungo la strada, da Rorà agli Ivert Leo-
+						nard mi riempie la testa di	intrighi 
+						e pettegolezzi, insistendo perché proceda 
+						con	energia contro gli ufficiali.
+						Giunto alla base, quasi 5 ore di 
+						discussione. prima su (crossato) que (/crossato) problemi 
+						generali -episodio del razzo– 
+						necessità di fare la tregua per 
+						romperla al momento opportuno 
+						(ma i fascisti come non comprende-
+						ranno un trucco così grossolano?) 
+						poi, dopo cena, Sergio, informato 
+						della lettera, mi chiede spiega-
+						zioni in proposito. <anchor xml:id="link1"/> Faccio chia-
+						mare G.	(Giorgio Segre) e Te come testimoni 
+
+
+						<add target="#link1"> Geo,
+						sottoposto prima, me assente, a un interrogatorio di
+						terzo grado, si comporta bene: dice solo di rivolgersi a
+						me e nega di aver raccolto firme. </add>
+					</ab>
+			</body>
+		</text>
+	</TEI>
