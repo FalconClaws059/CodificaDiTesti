@@ -239,15 +239,30 @@
 		<facsimile>
 			<!-- PAGINA 151-->
 			<surface>
-			<graphic xml:id="p151" url='img/p151.jfif' width='754px' height='1024px' />
+				<graphic xml:id="p151" url='img/p151.jfif' width='754px' height='1024px' />
+				<zone>
+					<damage agent="ink" extent="partial">
+					<desc>Tracce di testo visibili attraverso la pagina a causa dell'inchiostro traspirato dalla pagina opposta.</desc>
+					</damage>
+				</zone>
 			</surface>
 			<!-- PAGINA 152-->
 			<surface>
-			<graphic xml:id="p152" url='img/p152.jfif' width='754px' height='1024px' />
+				<graphic xml:id="p152" url='img/p152.jfif' width='754px' height='1024px' />
+				<zone>
+					<damage agent="ink" extent="partial">
+						<desc>Tracce di testo visibili attraverso la pagina a causa dell'inchiostro traspirato dalla pagina opposta.</desc>
+					</damage>
+				</zone>
 			</surface>
 			<!-- PAGINA 153-->
 			<surface>
-			<graphic xml:id="p153" url='img/p153.jfif' width='754px' height='1024px' />
+				<graphic xml:id="p153" url='img/p153.jfif' width='754px' height='1024px' />
+				<zone>
+					<damage agent="ink" extent="partial">
+					<desc>Tracce di testo visibili attraverso la pagina a causa dell'inchiostro traspirato dalla pagina opposta.</desc>
+					</damage>
+				</zone>
 			</surface>
 		</facsimile>
 
@@ -259,9 +274,9 @@
 
 				<pb n="151" facs="img/p151.jfif"/>
 					<ab xml:id="p-151">
-						<lb n="1"/>9 febbraio.
+						<lb n="1"/>9 febbr. 44
 						<lb n="2"/>Per la prima volta non ho tempo di scrivere 
-						<lb n="3"/>quasi nulla sulle vicende degli 
+						<lb n="3"/>quasi nulla <del> sui </del> <del> argo </del> sulle vicende degli 
 						<lb n="4"/>ultimi due giorni. L'altro ieri mi trovai 
 						<lb n="5"/>con Rob. (Roberto). Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
 						<lb n="6"/>parte delle armi prese a Bobbio, a patto 
@@ -269,10 +284,10 @@
 						<lb n="8"/>valle (danneggiato) rispettata (/danneggiata). Condizioni che mi semb-
 						<lb n="9" break="no"/>rano inaccettabili; mi dice di aver 
 						<lb n="10"/>temuto una campagna antivaldese, 
-						<lb n="11"/>come quella contro gli ebrei. (crossato) A differ (/crossato)
-						<lb n="12"/>Non so come Giorgio A. (Agosti) abbia 
+						<lb n="11"/>come quella contro gli ebrei. <del rend="overline" hand="author"> A differ </del>
+						<lb n="12"/>Non so come Giorgio A. (Agosti) <del rend="overstrike" hand="author"> non </del> abbia 
 						<lb n="13"/>accettato simili patti, ma con Rob.	(Roberto) 
-						<lb n="14"/>è impossibile discutere; anch'] io ho 
+						<lb n="14"/>è impossibile discutere; anch'io ho 
 						<lb n="15"/>finito per approvarlo, salvo ad essere 
 						<lb n="16"/>pentitissimo appena ci siamo lasciati.
 						<lb n="17"/>Per non compromettere il partito, si 
@@ -281,14 +296,14 @@
 						<lb n="20"/>non so come abbia potuto riuscire
 						<lb n="21"/>dato che tutti conoscono Torre Pellice
 						<lb n="22"/>come uno dei nostri centri più impor-
-						<lb n="23"/>-tanti. (Incerto) Vedo (/Incerto) poi Giorgio A. (Agosti) piuttosto 
+						<lb break="no" n="23"/>tanti. (Incerto) Vedo (/Incerto) poi Giorgio A. (Agosti) piuttosto 
 						<lb n="24"/>abbattuto. (crossato) cre (/crossato) (illeggibile: Cancellato)(/illeggibile) mi chiede se approva-
 						<lb n="25"/>vo il trattato; forse anche lui ram-
 					</ab>
 				
 
-				<pb n="151" facs="img/p151.jfif"/>
-					<ab xml:id="p-151">
+				<pb n="152" facs="img/p152.jfif"/>
+					<ab xml:id="p-152">
 						<lb n="1"/>maricava di	aver ceduto. Con Gu. (Gustavo)
 						<lb n="1"/>ceno, dormo, faccio colazione da
 						<lb n="1"/>contadini gentilissimi e ospitali;
@@ -318,8 +333,8 @@
 				
 				
 
-				<pb n="151" facs="img/p151.jfif"/>
-					<ab xml:id="p-151">
+				<pb n="153" facs="img/p153.jfif"/>
+					<ab xml:id="p-153">
 						la valle perde il migliore elemento. 
 						Ci salutiamo piuttosto commossi; 
 						incerti se ci vedremo ancora. 
