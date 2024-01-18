@@ -32,82 +32,100 @@
 		</publicationStmt>
 
 		<notesStmt>
-			<note xml:id ="termini">
-				<list type="Terminologia" rend="numbered">
-					<label>
-						<term xml:id="crv" xml:lang="fr">Corvèe</term>
-						<term ref="#crv" xml:lang="it">Corvata</term>
-					</label>
-					<item n="1">
-						<gloss target="#crv" source="https://www.treccani.it/vocabolario/corvee/">
-						Corvèe: Servizio di fatica assegnato a soldati.
-						</gloss>
-					</item>
-				</list>
-			</note>
-			<note xml:id ="persons">
+			<note xml:id ="people">
 				<listPerson>
-					<person xml:id="FRD">
-						<persName role="partigiana">
-							<ref xml:lang="it" target="https://www.museotorino.it/view/s/6c97d64061af41c19c2f1035df652142"/>
-							<forename>Frida</forename>
+					<person xml:id="RM">
+						<persName role="partigiano">
+							<ref xml:lang="it" target="https://www.alpcub.com/i_fratelli_malan.htm"/>
+							<forename>Roberto</forename>
 							<surname>Malan</surname>
 						</persName> 
 					</person>
-					<person xml:id="CHMB">
-						<persName role="ministro">
-							<ref xml:lang="it" target="https://www.treccani.it/enciclopedia/arthur-neville-chamberlain_(Enciclopedia-Italiana)/"/>
-							<forename>Arthur Neville</forename>
-							<surname>Chamberlain</surname>
+					<person xml:id="GA">
+						<persName role="Partigiano">
+							<ref xml:lang="it" target="https://it.wikipedia.org/wiki/Giorgio_Agosti"/>
+							<forename>Giorgio</forename>
+							<surname>Agosti</surname>
 						</persName>
 					</person>
-					<person xml:id="AR">
-						<persName role="ministro">
-							<ref xml:lang="it" target="https://www.treccani.it/enciclopedia/aristofane_%28Enciclopedia-Italiana%29/"/>
-							<forename>Aristofane</forename>
+					<person xml:id="GM">
+						<persName role="Partigiano">
+							<ref xml:lang="it" target="https://www.alpcub.com/i_fratelli_malan.htm"/>
+							<forename>Gustavo</forename>
+							<surname>Malan</surname>
+						</persName>
+					</person>
+					<person xml:id="TM">
+						<persName role="Partigiano">
+							<forename>Tino</forename>
+							<surname>Martina</surname>
+						</persName>
+					</person>
+					<person xml:id="JL">
+						<persName role="Partigiano">
+							<ref xml:lang="it" target="https://it.wikipedia.org/wiki/Jacopo_Lombardini"/>
+							<forename>Jacopo</forename>
+							<surname>Lombardini</surname>
+						</persName>
+					</person>
+					<person xml:id="FLB">
+						<persName role="Partigiano">
+							<forename>Francesco</forename>
+							<surname>Lo Bue</surname>
+						</persName>
+					</person>
+					<person xml:id="LC">
+						<persName role="Partigiano">
+							<ref xml:lang="it" target="https://it.wikipedia.org/wiki/Leonardo_Cocito"/>
+							<forename>Leonardo</forename>
+							<surname>Cocito</surname>
 						</persName>
 					</person>
 				</listPerson>
 			</note>
 			<note xml:id ="place">
 				<listPlace>
-					<place xml:id="BB">
-						<placeName>Bobbio</placeName>
-						<settlement>Piacenza</settlement>
-						<country>Italia</country>
-					</place>
-					<place xml:id="TP">
-						<placeName>Torre Pellice</placeName>
+					<place xml:id="BBPel">
+						<placeName>Bobbio Pellice</placeName>
 						<settlement>Torino</settlement>
 						<country>Italia</country>
 					</place>
-					<place xml:id="LSR">
-						<placeName>Luserna</placeName>
-						<settlement>Trento</settlement>
+					<place xml:id="LSNT">
+						<placeName>Lusernetta</placeName>
+						<settlement>Torino</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="ColVCC">
+						<placeName>Colle della Vaccera</placeName>
+						<settlement>Torino</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="RR">
+						<placeName>Rorà</placeName>
+						<settlement>Torino</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="TPel">
+						<placeName>Torre Pellice</placeName>
+						<settlement>Piacenza</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="VPel">
+						<placeName>Val Pellice</placeName>
+						<settlement>Torino</settlement>
 						<country>Italia</country>
 					</place>
 				</listPlace>
 			</note>
-			<note xml:id ="libro">
-				<listBibl>
-					<bibl xml:id="fisch">
-						<author ref="#GC">
-							<forename>Giuseppe</forename>
-							<surname>Cassone</surname> 
-						</author>
-						<title type="main">Il fischietto</title>
-						<pubPlace>
-							<placeName xml:id="tn">Torino</placeName>
-						</pubPlace>
-						<date when="1848">1848</date>
-					</bibl>
-				</listBibl>
-			</note>
-			<note xml:id ="Org">
+			<note xml:id ="Organizations">
 				<listOrg>
-					<org>
-						<orgName>Partito d'Azione</orgName>
+					<org xml:id="FrNaz">
+						<orgName>Fronte Nazionale</orgName>
 						<desc>Partito politico italiano di centro-sinistra fondato nel 1942.</desc>
+					</org>
+					<org xml:id="GrIv">
+						<orgName>Gruppo degli Ivert</orgName>
+						<desc>Gruppo di partigiani organizzato nel comune di Rorà, di circa 12 - 20 uomini.</desc>
 					</org>
 				</listOrg>
 			</note>
@@ -274,59 +292,60 @@
 
 				<pb n="151" facs="img/p151.jfif"/>
 					<ab xml:id="p-151">
-						<lb n="1"/>9 febbr. 44
-						<lb n="2"/>Per la prima volta non ho tempo di scrivere 
-						<lb n="3"/>quasi nulla <del> sui </del> <del> argo </del> sulle vicende degli 
-						<lb n="4"/>ultimi due giorni. L'altro ieri mi trovai 
-						<lb n="5"/>con Rob. (Roberto). Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
-						<lb n="6"/>parte delle armi prese a Bobbio, a patto 
-						<lb n="7"/>che gli ostaggi non (danneggiata) fossero uccisi e la 
-						<lb n="8"/>valle (danneggiato) rispettata (/danneggiata). Condizioni che mi semb-
-						<lb n="9" break="no"/>rano inaccettabili; mi dice di aver 
-						<lb n="10"/>temuto una campagna antivaldese, 
-						<lb n="11"/>come quella contro gli ebrei. <del rend="overline" hand="author"> A differ </del>
-						<lb n="12"/>Non so come Giorgio A. (Agosti) <del rend="overstrike" hand="author"> non </del> abbia 
-						<lb n="13"/>accettato simili patti, ma con Rob.	(Roberto) 
-						<lb n="14"/>è impossibile discutere; anch'io ho 
-						<lb n="15"/>finito per approvarlo, salvo ad essere 
-						<lb n="16"/>pentitissimo appena ci siamo lasciati.
-						<lb n="17"/>Per non compromettere il partito, si 
-						<lb n="18"/>è presentato ai fascisti come un ufficiale 
-						<lb n="19"/>Badogliano:	trucco piuttosto meschino e 
-						<lb n="20"/>non so come abbia potuto riuscire
-						<lb n="21"/>dato che tutti conoscono Torre Pellice
-						<lb n="22"/>come uno dei nostri centri più impor-
-						<lb break="no" n="23"/>tanti. (Incerto) Vedo (/Incerto) poi Giorgio A. (Agosti) piuttosto 
-						<lb n="24"/>abbattuto. (crossato) cre (/crossato) (illeggibile: Cancellato)(/illeggibile) mi chiede se approva-
-						<lb n="25"/>vo il trattato; forse anche lui ram-
+					
+						<date type="header" when="9-02-1944">9 <abbr type="suspension"> febbr. </abbr> 44<subst></date>
+						<lb n="1"/>Per la prima volta non ho tempo di scrivere 
+						<lb n="2"/>quasi nulla <del rend="strikethrough" hand="author"> sui </del> <del rend="strikethrough" hand="author"> argo </del> sulle vicende degli 
+						<lb n="3"/>ultimi due giorni. L'altro ieri mi trovai 
+						<lb n="4"/>con <choice> <abbr type="suspension"> Rob. </abbr> <expan> <persName> Roberto </persName> </expan> <choice>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
+						<lb n="5"/>parte delle armi prese a Bobbio, a patto 
+						<lb n="6"/>che gli ostaggi non (danneggiata) fossero (/danneggiata) uccisi e la 
+						<lb n="7"/>valle (danneggiato) rispettata (/danneggiata). Condizioni che mi semb-
+						<lb n="8" break="no"/>rano inaccettabili; mi dice di aver 
+						<lb n="9"/>temuto una campagna antivaldese, 
+						<lb n="10"/>come quella contro gli ebrei. <del rend="strikethrough" hand="author"> A differ </del>
+						<lb n="11"/>Non so come Giorgio A. (Agosti) <del rend="strikethrough" hand="author"> non </del> abbia 
+						<lb n="12"/>accettato simili patti, ma con Rob.	(Roberto Malan) 
+						<lb n="13"/>è impossibile discutere; anch'io ho 
+						<lb n="14"/>finito per approvarlo, salvo ad essere 
+						<lb n="15"/>pentitissimo appena ci siamo lasciati.
+						<lb n="16"/>Per non compromettere il partito, si 
+						<lb n="17"/>è presentato ai fascisti come un ufficiale 
+						<lb n="18"/>Badogliano:	trucco piuttosto meschino e 
+						<lb n="19"/>non so come abbia potuto riuscire
+						<lb n="20"/>dato che tutti conoscono (Luogo) Torre Pellice (/luogo)
+						<lb n="21"/>come uno dei nostri centri più impor-
+						<lb break="no" n="22"/>tanti. (Incerto) Vedo (/Incerto) poi Giorgio A. (Agosti) piuttosto 
+						<lb n="23"/>abbattuto. (crossato) cre (/crossato) (illeggibile: Cancellato)(/illeggibile) mi chiede se approva-
+						<lb break="no" n="24"/>vo il trattato; forse anche lui ram-
 					</ab>
 				
 
-				<pb n="152" facs="img/p152.jfif"/>
+				<pb break="no" n="152" facs="img/p152.jfif"/>
 					<ab xml:id="p-152">
-						<lb n="1"/>maricava di	aver ceduto. Con Gu. (Gustavo)
-						<lb n="1"/>ceno, dormo, faccio colazione da
-						<lb n="1"/>contadini gentilissimi e ospitali;
-						<lb n="1"/>Poi, (crossato) al (/crossato) la mattina dopo, cioè ieri, 
-						<lb n="1"/>una signora mi fa da battistrada 
-						<lb n="1"/>fino al ponte di (incerto) (crossato) Bibbro (/crossato) (Incerto) Lusernetta,
-						<lb n="1"/>per assicurarsi che la via sia
-						<lb n="1"/>sgombra. Da	Martina la storia 
-						<lb n="1"/>di Lombardini è popolarissima: uno 
-						<lb n="1"/>(crossato) uno (/crossato) tocca un	compagno, che gli 
-						<lb n="1"/>chiede: «Hai imparato da L (Lombardini)»? Allora
-						<lb n="1"/>dico di essere giunto proprio per 
-						<lb n="1"/>(crossato) trovare l' (/crossato) fare un'inchiesta e mi
-						<lb n="1"/>raccontano che 3 volte di seguito, 
-						<lb n="1"/>mentre a tavola spiegava (crossato) il (/crossato) l'orga- 
-						<lb n="1"/>nizzazione del Fr. N. (Fronte nazionale) (aggiunto sopra) L. (/aggiunto sopra) aveva cercato 
-						<lb n="1"/>di aprire i calzoni del proprio vi-
-						<lb n="1"/>cino e poi gli aveva proposto di 
-						<lb n="1"/>andare a letto insieme. Lo scandalo 
-						<lb n="1"/>si è diffuso a Vacera e agli Ivert.
-						<lb n="1"/>A Rorà saluto Lo B. (Bue) che, (incertezza) (crossato) carro (/crossato) (/incertezza)
-						<lb n="1"/>sfuggito all'arresto pochi giorni fa, 
-						<lb n="1"/>abbandona T. (Torre) Pellice. Con lui 
+						<lb break="no" n="1"/>maricava di aver ceduto. Con Gu. (Gustavo Malan)
+						<lb n="2"/>ceno, dormo, faccio colazione da
+						<lb n="3"/>contadini gentilissimi e ospitali;
+						<lb n="4"/>Poi, <del rend="strikethrough" hand="author"> al </del> la mattina dopo, cioè ieri, 
+						<lb n="5"/>una signora mi fa da battistrada 
+						<lb n="6"/>fino al ponte di <del rend="strikethrough" hand="author"> <sic> Bibbro </sic> </del> Lusernetta,
+						<lb n="7"/>per assicurarsi che la via sia
+						<lb n="8"/>sgombra. Da Martina (Tino Martina) la storia 
+						<lb n="9"/>di Lombardini (Jacopo Lombardini) è popolarissima: uno 
+						<lb n="10"/><del rend="strikethrough" hand="author">uno </del> tocca un	compagno, che gli 
+						<lb n="11"/>chiede: «Hai imparato da L (Lombardini)? Allora
+						<lb n="12"/>dico di essere giunto proprio per 
+						<lb n="13"/><del rend="strikethrough" hand="author"> trovare l' </del> fare un'inchiesta e mi
+						<lb n="14"/>raccontano che <num type="cardinal" value="3"> 3 </num> volte di seguito, 
+						<lb n="15"/>mentre a tavola spiegava <del rend="strikethrough" hand="author"> il </del> l'orga- 
+						<lb break="no" n="16"/>nizzazione del Fr. N. (Fronte nazionale) <add place="above" hand="author"> L. (Lombardini) </add> aveva cercato 
+						<lb n="17"/>di aprire i calzoni del proprio vi-
+						<lb break="no" n="18"/>cino e poi gli aveva proposto di 
+						<lb n="19"/>andare a letto insieme. Lo scandalo 
+						<lb n="20"/>si è diffuso a <sic> Vacera </sic> (Vaccera) e agli Ivert (Gruppo degli Ivert, gruppo della Rorà).
+						<lb n="21"/>A Rorà (Luogo) saluto Lo B. (Francesco Lo Bue) che, (incertezza) (crossato) carro (/crossato) (/incertezza)
+						<lb n="22"/>sfuggito all'arresto pochi giorni fa, 
+						<lb n="23"/>abbandona T. (Torre) Pellice. Con lui 
 					</ab>
 				
 				
@@ -339,7 +358,7 @@
 						Ci salutiamo piuttosto commossi; 
 						incerti se ci vedremo ancora. 
 						Lungo la strada, da Rorà agli Ivert Leo-
-						nard mi riempie la testa di	intrighi 
+						nard (Leonardo Cocito) mi riempie la testa di	intrighi 
 						e pettegolezzi, insistendo perché proceda 
 						con	energia contro gli ufficiali.
 						Giunto alla base, quasi 5 ore di 
@@ -351,14 +370,14 @@
 						ranno un trucco così grossolano?) 
 						poi, dopo cena, Sergio, informato 
 						della lettera, mi chiede spiega-
-						zioni in proposito. <anchor xml:id="link1"/> Faccio chia-
+						zioni in proposito. <add place="bottom"> Geo,
+						sottoposto prima, me assente, a un interrogatorio di
+						terzo grado, si comporta bene: dice solo di rivolgersi a
+						me e nega di aver raccolto firme. </add> Faccio chia-
 						mare G.	(Giorgio Segre) e Te come testimoni 
 
 
-						<add target="#link1"> Geo,
-						sottoposto prima, me assente, a un interrogatorio di
-						terzo grado, si comporta bene: dice solo di rivolgersi a
-						me e nega di aver raccolto firme. </add>
+						
 					</ab>
 			</body>
 		</text>
