@@ -353,19 +353,19 @@
 						<lb n="8"/>sgombra. Da <persName> Martina </persName> la storia 
 						<lb n="9"/>di <persName> Lombardini </persName> è popolarissima: uno 
 						<lb n="10"/><del rend="strikethrough" hand="author"> uno </del> tocca un compagno, che gli 
-						<lb n="11"/>chiede: «Hai imparato da <persName> <choice> <abbr>L</abbr> <exten>Lombardini</exten> </choice> </persName>? Allora
+						<lb n="11"/>chiede: «Hai imparato da <persName> <choice> <abbr>L</abbr> <expan>Lombardini</expan> </choice> </persName>? Allora
 						<lb n="12"/>dico di essere giunto proprio per 
 						<lb n="13"/><del rend="strikethrough" hand="author"> trovare l' </del> fare un'inchiesta e mi
 						<lb n="14"/>raccontano che <num type="cardinal" value="3"> 3 </num> volte di seguito, 
 						<lb n="15"/>mentre a tavola spiegava <del rend="strikethrough" hand="author"> il </del> l'orga- 
-						<lb break="no" n="16"/>nizzazione del <orgName> <choice> <abbr type="suspension"> Fr. N. </abbr> <exten> Fronte nazionale </exten> <choice> </orgName> <add place="above" hand="author"><persName> <choice> <abbr>L</abbr> <exten>Lombardini</exten> </choice> </persName></add> aveva cercato 
+						<lb break="no" n="16"/>nizzazione del <orgName> <choice> <abbr type="suspension"> Fr. N. </abbr> <expan> Fronte nazionale </expan> </choice> </orgName> <add place="above" hand="author"><persName> <choice> <abbr>L</abbr> <expan>Lombardini</expan> </choice> </persName></add> aveva cercato 
 						<lb n="17"/>di aprire i calzoni del proprio vi-
 						<lb break="no" n="18"/>cino e poi gli aveva proposto di 
 						<lb n="19"/>andare a letto insieme. Lo scandalo 
 						<lb n="20"/>si è diffuso a <placeName> <sic> Vacera </sic> <corr> Vaccera </corr> </placeName> e agli <orgName> Ivert </orgName>.
-						<lb n="21"/>A <placeName> Rorà </placeName> saluto <persName> Lo <choice> <abbr type="suspension"> B. <abbr> <exten> Bue </exten> </choice> </persName> che, <del rend="overstrike" hand="author"> <unclear reason="illegible" confidence="low"> carro </unclear> </del>
+						<lb n="21"/>A <placeName> Rorà </placeName> saluto <persName> Lo <choice> <abbr type="suspension"> B. </abbr> <expan> Bue </expan> </choice> </persName> che, <del rend="overstrike" hand="author"> <unclear reason="illegible" confidence="low"> carro </unclear> </del>
 						<lb n="22"/>sfuggito all'arresto pochi giorni fa, 
-						<lb n="23"/>abbandona <placeName> <choice><abbr  type="suspension"> T. </abbr> <exten> Torre </exten> </choice> Pellice </placeName>. Con lui 
+						<lb n="23"/>abbandona <placeName> <choice><abbr  type="suspension"> T. </abbr> <expan> Torre </expan> </choice> Pellice </placeName>. Con lui 
 					</ab>
 				
 				
@@ -378,7 +378,7 @@
 						<lb n="2"/>Ci salutiamo piuttosto commossi; 
 						<lb n="3"/>incerti se ci vedremo ancora. Lungo 
 						<lb break="no" n="4"/>la strada, da <placeName> Rorà </placeName> agli <orgName> Ivert </orgName> <persName> <choice> <abbr type="suspension"> Leo-
-						<lb break="no" n="5"/> nard </abbr> <exten> Leonardo </exten> </choice> </persName> mi riempie la testa di intrighi 
+						<lb break="no" n="5"/> nard </abbr> <expan> Leonardo </expan> </choice> </persName> mi riempie la testa di intrighi 
 						<lb n="6"/> e pettegolezzi, insistendo perché proceda 
 						<lb n="7"/> con	energia contro gli ufficiali.
 						<lb n="8"/> Giunto alla base, quasi <num type="cardinal" value="5"> 5 </num> ore di 
@@ -391,12 +391,12 @@
 						<lb n="15"/> poi, dopo cena, <persName> Sergio </persName>, informato 
 						<lb n="16"/> della lettera, mi chiede spiega-
 						<lb break="no" n="17"/>zioni in proposito. <ref target="#notaAggiunta"></ref> Faccio chia-
-						<lb break="no" n="18"/> mare <persName> <choice> <abbr type="suspension"> G. </abbr> <exten> Giorgio </exten> </choice> </persName> e Te come testimoni 
+						<lb break="no" n="18"/> mare <persName> <choice> <abbr type="suspension"> G. </abbr> <expan> Giorgio </expan> </choice> </persName> e Te come testimoni 
 						<lb n="19"/> per guadagnare qualche minuto.
 
 						<add xml:id="notaAggiunta" place="bottom"> 
 							<lb n="20"/>Geo, sottoposto prima, me assente, a un interrogatorio di
-							<lb n="21"/><num type="cardinal" value="3">3 <add rend="above">o </add> grado, si comporta bene: dice solo di rivolgersi a me e 
+							<lb n="21"/><num type="cardinal" value="3">3 </num> <add rend="above">o </add> grado, si comporta bene: dice solo di rivolgersi a me e 
 							<lb n="22"/>nega di aver raccolto firme. 
 						</add> 
 
