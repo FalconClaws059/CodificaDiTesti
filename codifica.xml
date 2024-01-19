@@ -81,6 +81,13 @@
 							<surname>Cocito</surname>
 						</persName>
 					</person>
+					<person xml:id="SerSer">
+						<persName role="Partigiano">
+							<ref xml:lang="it" target="https://it.wikipedia.org/wiki/Sergio_Serafini"/>
+							<forename>Sergio</forename>
+							<surname>Serafini</surname>
+						</persName>
+					</person>
 				</listPerson>
 			</note>
 			<note xml:id ="place">
@@ -293,19 +300,32 @@
 				<pb n="151" facs="img/p151.jfif"/>
 					<ab xml:id="p-151">
 					
-						<date type="header" when="9-02-1944">9 <abbr type="suspension"> febbr. </abbr> 44<subst></date>
+						<date type="header" when="9-02-1944">9 <abbr type="suspension"> febbr. </abbr> 44</date>
 						<lb n="1"/>Per la prima volta non ho tempo di scrivere 
 						<lb n="2"/>quasi nulla <del rend="strikethrough" hand="author"> sui </del> <del rend="strikethrough" hand="author"> argo </del> sulle vicende degli 
 						<lb n="3"/>ultimi due giorni. L'altro ieri mi trovai 
-						<lb n="4"/>con <choice> <abbr type="suspension"> Rob. </abbr> <expan> <persName> Roberto </persName> </expan> <choice>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
-						<lb n="5"/>parte delle armi prese a Bobbio, a patto 
-						<lb n="6"/>che gli ostaggi non (danneggiata) fossero (/danneggiata) uccisi e la 
-						<lb n="7"/>valle (danneggiato) rispettata (/danneggiata). Condizioni che mi semb-
+						<lb n="4"/>con <choice> <abbr type="suspension"> Rob. </abbr> <expan> <persName> Roberto </persName> </expan> </choice>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
+						<lb n="5"/>parte delle armi prese a <placeName> Bobbio </placeName>, a patto 
+						<lb n="6"/>che gli ostaggi non <damage agent="ink" degree="low">fossero </damage> uccisi e la 
+						<lb n="7"/>valle <damage agent="ink" degree="low"> rispettata </damage>. Condizioni che mi semb-
 						<lb n="8" break="no"/>rano inaccettabili; mi dice di aver 
 						<lb n="9"/>temuto una campagna antivaldese, 
 						<lb n="10"/>come quella contro gli ebrei. <del rend="strikethrough" hand="author"> A differ </del>
-						<lb n="11"/>Non so come Giorgio A. (Agosti) <del rend="strikethrough" hand="author"> non </del> abbia 
-						<lb n="12"/>accettato simili patti, ma con Rob.	(Roberto Malan) 
+						<lb n="11"/>Non so come <persName> 
+													<sic> A </sic> 
+													Giorgio 
+													<choice> 
+														<expan> Agosti </expan> 
+														<abbr type="suspension"> A. </abbr> 
+													</choice> 
+												</persName>
+												<del rend="strikethrough" hand="author"> non </del> abbia 
+						<lb n="12"/>accettato simili patti, ma con <persName>
+																			<choice>
+																				<abbr type="suspension"> Rob. </abbr>
+																				<expan> Roberto </expan>
+																			</choice>
+																	</persName>
 						<lb n="13"/>è impossibile discutere; anch'io ho 
 						<lb n="14"/>finito per approvarlo, salvo ad essere 
 						<lb n="15"/>pentitissimo appena ci siamo lasciati.
@@ -313,69 +333,72 @@
 						<lb n="17"/>è presentato ai fascisti come un ufficiale 
 						<lb n="18"/>Badogliano:	trucco piuttosto meschino e 
 						<lb n="19"/>non so come abbia potuto riuscire
-						<lb n="20"/>dato che tutti conoscono (Luogo) Torre Pellice (/luogo)
+						<lb n="20"/>dato che tutti conoscono <placeName> Torre Pellice </placeName>
 						<lb n="21"/>come uno dei nostri centri più impor-
-						<lb break="no" n="22"/>tanti. (Incerto) Vedo (/Incerto) poi Giorgio A. (Agosti) piuttosto 
-						<lb n="23"/>abbattuto. (crossato) cre (/crossato) (illeggibile: Cancellato)(/illeggibile) mi chiede se approva-
+						<lb break="no" n="22"/>tanti. <choice> <sic> VVedo </sic> <corr> Vedo </corr> </choice> poi <persName> Giorgio <choice> <abbr type="suspension"> A. </abbr> <expan> Agosti </expan> </choice> </persName> piuttosto 
+						<lb n="23"/>abbattuto. <del rend="strikethrough" hand="author"> <sic> cre </sic> </del> <del rend="strikethrough"> <gap quantity="2" unit="chars" reason="illegible"></gap> </del> mi chiede se approva-
 						<lb break="no" n="24"/>vo il trattato; forse anche lui ram-
 					</ab>
 				
 
 				<pb break="no" n="152" facs="img/p152.jfif"/>
 					<ab xml:id="p-152">
-						<lb break="no" n="1"/>maricava di aver ceduto. Con Gu. (Gustavo Malan)
+						<lb break="no" n="1"/>maricava di aver ceduto. Con <persName> <choice> <abbr type="suspension">  Gu. </abbr> <expan> Gustavo </expan> </choice> </persName>
 						<lb n="2"/>ceno, dormo, faccio colazione da
 						<lb n="3"/>contadini gentilissimi e ospitali;
 						<lb n="4"/>Poi, <del rend="strikethrough" hand="author"> al </del> la mattina dopo, cioè ieri, 
 						<lb n="5"/>una signora mi fa da battistrada 
-						<lb n="6"/>fino al ponte di <del rend="strikethrough" hand="author"> <sic> Bibbro </sic> </del> Lusernetta,
+						<lb n="6"/>fino al ponte di <del rend="strikethrough" hand="author"> <sic> Bibbro </sic> </del> <placeName> Lusernetta </placeName>,
 						<lb n="7"/>per assicurarsi che la via sia
-						<lb n="8"/>sgombra. Da Martina (Tino Martina) la storia 
-						<lb n="9"/>di Lombardini (Jacopo Lombardini) è popolarissima: uno 
-						<lb n="10"/><del rend="strikethrough" hand="author">uno </del> tocca un	compagno, che gli 
-						<lb n="11"/>chiede: «Hai imparato da L (Lombardini)? Allora
+						<lb n="8"/>sgombra. Da <persName> Martina </persName> la storia 
+						<lb n="9"/>di <persName> Lombardini </persName> è popolarissima: uno 
+						<lb n="10"/><del rend="strikethrough" hand="author"> uno </del> tocca un compagno, che gli 
+						<lb n="11"/>chiede: «Hai imparato da <persName> <choice> <abbr>L</abbr> <exten>Lombardini</exten> </choice> </persName>? Allora
 						<lb n="12"/>dico di essere giunto proprio per 
 						<lb n="13"/><del rend="strikethrough" hand="author"> trovare l' </del> fare un'inchiesta e mi
 						<lb n="14"/>raccontano che <num type="cardinal" value="3"> 3 </num> volte di seguito, 
 						<lb n="15"/>mentre a tavola spiegava <del rend="strikethrough" hand="author"> il </del> l'orga- 
-						<lb break="no" n="16"/>nizzazione del Fr. N. (Fronte nazionale) <add place="above" hand="author"> L. (Lombardini) </add> aveva cercato 
+						<lb break="no" n="16"/>nizzazione del <orgName> <choice> <abbr type="suspension"> Fr. N. </abbr> <exten> Fronte nazionale </exten> <choice> </orgName> <add place="above" hand="author"><persName> <choice> <abbr>L</abbr> <exten>Lombardini</exten> </choice> </persName></add> aveva cercato 
 						<lb n="17"/>di aprire i calzoni del proprio vi-
 						<lb break="no" n="18"/>cino e poi gli aveva proposto di 
 						<lb n="19"/>andare a letto insieme. Lo scandalo 
-						<lb n="20"/>si è diffuso a <sic> Vacera </sic> (Vaccera) e agli Ivert (Gruppo degli Ivert, gruppo della Rorà).
-						<lb n="21"/>A Rorà (Luogo) saluto Lo B. (Francesco Lo Bue) che, (incertezza) (crossato) carro (/crossato) (/incertezza)
+						<lb n="20"/>si è diffuso a <placeName> <sic> Vacera </sic> <corr> Vaccera </corr> </placeName> e agli <orgName> Ivert </orgName>.
+						<lb n="21"/>A <placeName> Rorà </placeName> saluto <persName> Lo <choice> <abbr type="suspension"> B. <abbr> <exten> Bue </exten> </choice> </persName> che, <del rend="overstrike" hand="author"> <unclear reason="illegible" confidence="low"> carro </unclear> </del>
 						<lb n="22"/>sfuggito all'arresto pochi giorni fa, 
-						<lb n="23"/>abbandona T. (Torre) Pellice. Con lui 
+						<lb n="23"/>abbandona <placeName> <choice><abbr  type="suspension"> T. </abbr> <exten> Torre </exten> </choice> Pellice </placeName>. Con lui 
 					</ab>
 				
 				
 				
 				
 
-				<pb n="153" facs="img/p153.jfif"/>
+				<pb break="no" n="153" facs="img/p153.jfif"/>
 					<ab xml:id="p-153">
-						la valle perde il migliore elemento. 
-						Ci salutiamo piuttosto commossi; 
-						incerti se ci vedremo ancora. 
-						Lungo la strada, da Rorà agli Ivert Leo-
-						nard (Leonardo Cocito) mi riempie la testa di	intrighi 
-						e pettegolezzi, insistendo perché proceda 
-						con	energia contro gli ufficiali.
-						Giunto alla base, quasi 5 ore di 
-						discussione. prima su (crossato) que (/crossato) problemi 
-						generali -episodio del razzo– 
-						necessità di fare la tregua per 
-						romperla al momento opportuno 
-						(ma i fascisti come non comprende-
-						ranno un trucco così grossolano?) 
-						poi, dopo cena, Sergio, informato 
-						della lettera, mi chiede spiega-
-						zioni in proposito. <add place="bottom"> Geo,
-						sottoposto prima, me assente, a un interrogatorio di
-						terzo grado, si comporta bene: dice solo di rivolgersi a
-						me e nega di aver raccolto firme. </add> Faccio chia-
-						mare G.	(Giorgio Segre) e Te come testimoni 
+						<lb break="no" n="1"/> la valle perde il migliore elemento. 
+						<lb n="2"/>Ci salutiamo piuttosto commossi; 
+						<lb n="3"/>incerti se ci vedremo ancora. Lungo 
+						<lb break="no" n="4"/>la strada, da <placeName> Rorà </placeName> agli <orgName> Ivert </orgName> <persName> <choice> <abbr type="suspension"> Leo-
+						<lb break="no" n="5"/> nard </abbr> <exten> Leonardo </exten> </choice> </persName> mi riempie la testa di intrighi 
+						<lb n="6"/> e pettegolezzi, insistendo perché proceda 
+						<lb n="7"/> con	energia contro gli ufficiali.
+						<lb n="8"/> Giunto alla base, quasi <num type="cardinal" value="5"> 5 </num> ore di 
+						<lb n="9"/>discussione. prima su <del rend="overstrike" hand="author"> <sic> que </sic> </del> problemi 
+						<lb n="10"/> generali - episodio del razzo – 
+						<lb n="11"/> necessità di fare la tregua per 
+						<lb n="12"/> romperla al momento opportuno 
+						<lb n="13"/> (ma i fascisti come non comprende-
+						<lb break="no" n="14"/> ranno un trucco così grossolano?) 
+						<lb n="15"/> poi, dopo cena, <persName> Sergio </persName>, informato 
+						<lb n="16"/> della lettera, mi chiede spiega-
+						<lb break="no" n="17"/>zioni in proposito. <ref target="#notaAggiunta"></ref> Faccio chia-
+						<lb break="no" n="18"/> mare <persName> <choice> <abbr type="suspension"> G. </abbr> <exten> Giorgio </exten> </choice> </persName> e Te come testimoni 
+						<lb n="19"/> per guadagnare qualche minuto.
 
+						<add xml:id="notaAggiunta" place="bottom"> 
+							<lb n="20"/>Geo, sottoposto prima, me assente, a un interrogatorio di
+							<lb n="21"/><num type="cardinal" value="3">3 <add rend="above">o </add> grado, si comporta bene: dice solo di rivolgersi a me e 
+							<lb n="22"/>nega di aver raccolto firme. 
+						</add> 
 
 						
 					</ab>
