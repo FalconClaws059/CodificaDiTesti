@@ -35,7 +35,7 @@
 			<note xml:id ="people">
 				<listPerson>
 					<person xml:id="RM">
-						<persName role="partigiano">
+						<persName role="Partigiano">
 							<ref xml:lang="it" target="https://www.alpcub.com/i_fratelli_malan.htm"/>
 							<forename>Roberto</forename>
 							<surname>Malan</surname>
@@ -264,7 +264,7 @@
 		<facsimile>
 			<!-- PAGINA 151-->
 			<surface>
-				<graphic xml:id="p151" url='img/p151.jfif' width='754px' height='1024px' />
+				<graphic xml:id="p151" url='img/151.jpg' width='754px' height='1024px' />
 				<zone>
 					<damage agent="ink" extent="partial">
 					<desc>Tracce di testo visibili attraverso la pagina a causa dell'inchiostro traspirato dalla pagina opposta.</desc>
@@ -273,7 +273,7 @@
 			</surface>
 			<!-- PAGINA 152-->
 			<surface>
-				<graphic xml:id="p152" url='img/p152.jfif' width='754px' height='1024px' />
+				<graphic xml:id="p152" url='img/152.jpg' width='754px' height='1024px' />
 				<zone>
 					<damage agent="ink" extent="partial">
 						<desc>Tracce di testo visibili attraverso la pagina a causa dell'inchiostro traspirato dalla pagina opposta.</desc>
@@ -282,7 +282,7 @@
 			</surface>
 			<!-- PAGINA 153-->
 			<surface>
-				<graphic xml:id="p153" url='img/p153.jfif' width='754px' height='1024px' />
+				<graphic xml:id="p153" url='img/153.jpg' width='754px' height='1024px' />
 				<zone>
 					<damage agent="ink" extent="partial">
 					<desc>Tracce di testo visibili attraverso la pagina a causa dell'inchiostro traspirato dalla pagina opposta.</desc>
@@ -297,14 +297,14 @@
 
 				<!-- Prima pagina -->
 
-				<pb n="151" facs="img/p151.jfif"/>
-					<ab xml:id="p-151">
+				<pb n="151" facs="img/p151.jpg"/>
+					<ab xml:id="p151">
 					
 						<date type="header" when="9-02-1944">9 <abbr type="suspension"> febbr. </abbr> 44</date>
 						<lb n="1"/>Per la prima volta non ho tempo di scrivere 
 						<lb n="2"/>quasi nulla <del rend="strikethrough" hand="author"> sui </del> <del rend="strikethrough" hand="author"> argo </del> sulle vicende degli 
 						<lb n="3"/>ultimi due giorni. L'altro ieri mi trovai 
-						<lb n="4"/>con <choice> <abbr type="suspension"> Rob. </abbr> <expan> <persName> Roberto </persName> </expan> </choice>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
+						<lb n="4"/>con <choice> <abbr type="suspension">Rob</abbr> <expan> <persName>Roberto</persName> </expan> </choice>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
 						<lb n="5"/>parte delle armi prese a <placeName> Bobbio </placeName>, a patto 
 						<lb n="6"/>che gli ostaggi non <damage agent="ink" degree="low">fossero </damage> uccisi e la 
 						<lb n="7"/>valle <damage agent="ink" degree="low"> rispettata </damage>. Condizioni che mi semb-
@@ -341,8 +341,8 @@
 					</ab>
 				
 
-				<pb break="no" n="152" facs="img/p152.jfif"/>
-					<ab xml:id="p-152">
+				<pb break="no" n="152" facs="img/p152.jpg"/>
+					<ab xml:id="p152">
 						<lb break="no" n="1"/>maricava di aver ceduto. Con <persName> <choice> <abbr type="suspension">  Gu. </abbr> <expan> Gustavo </expan> </choice> </persName>
 						<lb n="2"/>ceno, dormo, faccio colazione da
 						<lb n="3"/>contadini gentilissimi e ospitali;
@@ -372,8 +372,8 @@
 				
 				
 
-				<pb break="no" n="153" facs="img/p153.jfif"/>
-					<ab xml:id="p-153">
+				<pb break="no" n="153" facs="img/p153.jpg"/>
+					<ab xml:id="p153">
 						<lb break="no" n="1"/> la valle perde il migliore elemento. 
 						<lb n="2"/>Ci salutiamo piuttosto commossi; 
 						<lb n="3"/>incerti se ci vedremo ancora. Lungo 
@@ -396,7 +396,7 @@
 
 						<add xml:id="notaAggiunta" place="bottom"> 
 							<lb n="20"/>Geo, sottoposto prima, me assente, a un interrogatorio di
-							<lb n="21"/><num type="cardinal" value="3">3 </num> <add rend="above">o </add> grado, si comporta bene: dice solo di rivolgersi a me e 
+							<lb n="21"/><num type="cardinal" value="3">3 </num> <add rend="above">o</add> grado, si comporta bene: dice solo di rivolgersi a me e 
 							<lb n="22"/>nega di aver raccolto firme. 
 						</add> 
 
