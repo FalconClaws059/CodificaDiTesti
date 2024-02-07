@@ -56,7 +56,7 @@
 						</persName>
 					</person>
 					<person xml:id="TM">
-						<persName role="Partigiano">
+						<persName role="Partigiano" target="http://www.sentieripartigianivalpellice.it/resistenza.html">
 							<forename>Tino</forename>
 							<surname>Martina</surname>
 						</persName>
@@ -69,7 +69,7 @@
 						</persName>
 					</person>
 					<person xml:id="FLB">
-						<persName role="Partigiano">
+						<persName role="Partigiano" target="http://www.sentieripartigianivalpellice.it/resistenza.html">
 							<forename>Francesco</forename>
 							<surname>Lo Bue</surname>
 						</persName>
@@ -92,32 +92,32 @@
 			</note>
 			<note xml:id ="place">
 				<listPlace>
-					<place xml:id="BBPel">
+					<place xml:id="BBPel" target="https://it.wikipedia.org/wiki/Bobbio_Pellice">
 						<placeName>Bobbio Pellice</placeName>
 						<settlement>Torino</settlement>
 						<country>Italia</country>
 					</place>
-					<place xml:id="LSNT">
+					<place xml:id="LSNT" target="https://it.wikipedia.org/wiki/Lusernetta">
 						<placeName>Lusernetta</placeName>
 						<settlement>Torino</settlement>
 						<country>Italia</country>
 					</place>
-					<place xml:id="ColVCC">
+					<place xml:id="ColVCC" target="https://it.wikipedia.org/wiki/Colle_della_Vaccera">
 						<placeName>Colle della Vaccera</placeName>
 						<settlement>Torino</settlement>
 						<country>Italia</country>
 					</place>
-					<place xml:id="RR">
+					<place xml:id="RR" target="https://it.wikipedia.org/wiki/Ror%C3%A0_(Italia)">
 						<placeName>Rorà</placeName>
 						<settlement>Torino</settlement>
 						<country>Italia</country>
 					</place>
-					<place xml:id="TPel">
+					<place xml:id="TPel" target="https://it.wikipedia.org/wiki/Torre_Pellice">
 						<placeName>Torre Pellice</placeName>
 						<settlement>Piacenza</settlement>
 						<country>Italia</country>
 					</place>
-					<place xml:id="VPel">
+					<place xml:id="VPel" target="https://it.wikipedia.org/wiki/Val_Pellice">
 						<placeName>Val Pellice</placeName>
 						<settlement>Torino</settlement>
 						<country>Italia</country>
@@ -126,11 +126,11 @@
 			</note>
 			<note xml:id ="Organizations">
 				<listOrg>
-					<org xml:id="FrNaz">
+					<org xml:id="FrNaz" target="https://it.wikipedia.org/wiki/Fronte_Nazionale_(1997)">
 						<orgName>Fronte Nazionale</orgName>
 						<desc>Partito politico italiano di centro-sinistra fondato nel 1942.</desc>
 					</org>
-					<org xml:id="GrIv">
+					<org xml:id="GrIv" target="http://www.sentieripartigianivalpellice.it/resistenza.html">
 						<orgName>Gruppo degli Ivert</orgName>
 						<desc>Gruppo di partigiani organizzato nel comune di Rorà, di circa 12 - 20 uomini.</desc>
 					</org>
@@ -302,16 +302,16 @@
 					
 						<date type="header" when="9-02-1944">9 <abbr type="suspension"> febbr. </abbr> 44</date>
 						<lb n="1"/>Per la prima volta non ho tempo di scrivere 
-						<lb n="2"/>quasi nulla <del rend="strikethrough" hand="author"> sui </del> <del rend="strikethrough" hand="author"> argo </del> sulle vicende degli 
+						<lb n="2"/>quasi nulla <del rend="strikethrough" hand="author">sui</del> <del rend="strikethrough" hand="author">argo</del> sulle vicende degli 
 						<lb n="3"/>ultimi due giorni. L'altro ieri mi trovai 
-						<lb n="4"/>con <choice> <abbr type="suspension">Rob</abbr> <expan> <persName>Roberto</persName> </expan> </choice>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
-						<lb n="5"/>parte delle armi prese a <placeName> Bobbio </placeName>, a patto 
-						<lb n="6"/>che gli ostaggi non <damage agent="ink" degree="low">fossero </damage> uccisi e la 
-						<lb n="7"/>valle <damage agent="ink" degree="low"> rispettata </damage>. Condizioni che mi semb-
+						<lb n="4"/>con  <persName xml:id="RM"><choice> <abbr type="suspension">Rob</abbr> <expan>Roberto</expan></choice></persName>. Ha restituito i <num type="cardinal" value="40"> 40 </num> militi e gran 
+						<lb n="5"/>parte delle armi prese a <placeName xml:id="BBPel"> Bobbio </placeName>, a patto 
+						<lb n="6"/>che gli ostaggi non <damage agent="ink" degree="low">fossero</damage> uccisi e la 
+						<lb n="7"/>valle <damage agent="ink" degree="low">rispettata</damage>. Condizioni che mi semb-
 						<lb n="8" break="no"/>rano inaccettabili; mi dice di aver 
 						<lb n="9"/>temuto una campagna antivaldese, 
 						<lb n="10"/>come quella contro gli ebrei. <del rend="strikethrough" hand="author"> A differ </del>
-						<lb n="11"/>Non so come <persName> 
+						<lb n="11"/>Non so come <persName xml:id="GA"> 
 													<sic> A </sic> 
 													Giorgio 
 													<choice> 
@@ -319,8 +319,8 @@
 														<abbr type="suspension"> A. </abbr> 
 													</choice> 
 												</persName>
-												<del rend="strikethrough" hand="author"> non </del> abbia 
-						<lb n="12"/>accettato simili patti, ma con <persName>
+												<del rend="strikethrough" hand="author">non</del> abbia 
+						<lb n="12"/>accettato simili patti, ma con <persName xml:id="RM">
 																			<choice>
 																				<abbr type="suspension"> Rob. </abbr>
 																				<expan> Roberto </expan>
@@ -333,39 +333,39 @@
 						<lb n="17"/>è presentato ai fascisti come un ufficiale 
 						<lb n="18"/>Badogliano:	trucco piuttosto meschino e 
 						<lb n="19"/>non so come abbia potuto riuscire
-						<lb n="20"/>dato che tutti conoscono <placeName> Torre Pellice </placeName>
+						<lb n="20"/>dato che tutti conoscono <placeName xml:id="TPel"> Torre Pellice </placeName>
 						<lb n="21"/>come uno dei nostri centri più impor-
-						<lb break="no" n="22"/>tanti. <choice> <sic> VVedo </sic> <corr> Vedo </corr> </choice> poi <persName> Giorgio <choice> <abbr type="suspension"> A. </abbr> <expan> Agosti </expan> </choice> </persName> piuttosto 
-						<lb n="23"/>abbattuto. <del rend="strikethrough" hand="author"> <sic> cre </sic> </del> <del rend="strikethrough"> <gap quantity="2" unit="chars" reason="illegible"></gap> </del> mi chiede se approva-
+						<lb break="no" n="22"/>tanti. <choice> <sic> VVedo </sic> <corr> Vedo </corr> </choice> poi <persName xml:id="GA"> Giorgio <choice> <abbr type="suspension"> A. </abbr> <expan> Agosti </expan> </choice> </persName> piuttosto 
+						<lb n="23"/>abbattuto. <del rend="strikethrough" hand="author">cre</del> <del rend="strikethrough"> <gap quantity="2" unit="chars" reason="illegible"></gap> </del> mi chiede se approva-
 						<lb break="no" n="24"/>vo il trattato; forse anche lui ram-
 					</ab>
 				
 
 				<pb break="no" n="152" facs="img/p152.jpg"/>
 					<ab xml:id="p152">
-						<lb break="no" n="1"/>maricava di aver ceduto. Con <persName> <choice> <abbr type="suspension">  Gu. </abbr> <expan> Gustavo </expan> </choice> </persName>
+						<lb break="no" n="1"/>maricava di aver ceduto. Con <persName xml:id="GA"><choice><abbr type="suspension">Gu.</abbr><expan>Gustavo</expan></choice></persName>
 						<lb n="2"/>ceno, dormo, faccio colazione da
 						<lb n="3"/>contadini gentilissimi e ospitali;
-						<lb n="4"/>Poi, <del rend="strikethrough" hand="author"> al </del> la mattina dopo, cioè ieri, 
+						<lb n="4"/>Poi,<del rend="strikethrough" hand="author">al</del> la mattina dopo, cioè ieri, 
 						<lb n="5"/>una signora mi fa da battistrada 
-						<lb n="6"/>fino al ponte di <del rend="strikethrough" hand="author"> <sic> Bibbro </sic> </del> <placeName> Lusernetta </placeName>,
+						<lb n="6"/>fino al ponte di <del rend="strikethrough" hand="author"><sic>Bibbro</sic></del><placeName xml:id="LSNT"> Lusernetta </placeName>,
 						<lb n="7"/>per assicurarsi che la via sia
-						<lb n="8"/>sgombra. Da <persName> Martina </persName> la storia 
-						<lb n="9"/>di <persName> Lombardini </persName> è popolarissima: uno 
-						<lb n="10"/><del rend="strikethrough" hand="author"> uno </del> tocca un compagno, che gli 
-						<lb n="11"/>chiede: «Hai imparato da <persName> <choice> <abbr>L</abbr> <expan>Lombardini</expan> </choice> </persName>? Allora
+						<lb n="8"/>sgombra. Da <persName xml:id="TM"> Martina </persName> la storia 
+						<lb n="9"/>di <persName xml:id="JL"> Lombardini </persName> è popolarissima: uno 
+						<lb n="10"/><del rend="strikethrough" hand="author">uno</del> tocca un compagno, che gli 
+						<lb n="11"/>chiede: «Hai imparato da <persName xml:id="JL"> <choice> <abbr>L</abbr> <expan>Lombardini</expan></choice></persName>? Allora
 						<lb n="12"/>dico di essere giunto proprio per 
-						<lb n="13"/><del rend="strikethrough" hand="author"> trovare l' </del> fare un'inchiesta e mi
+						<lb n="13"/><del rend="strikethrough" hand="author"> trovare l'</del> fare un'inchiesta e mi
 						<lb n="14"/>raccontano che <num type="cardinal" value="3"> 3 </num> volte di seguito, 
-						<lb n="15"/>mentre a tavola spiegava <del rend="strikethrough" hand="author"> il </del> l'orga- 
-						<lb break="no" n="16"/>nizzazione del <orgName> <choice> <abbr type="suspension"> Fr. N. </abbr> <expan> Fronte nazionale </expan> </choice> </orgName> <add place="above" hand="author"><persName> <choice> <abbr>L</abbr> <expan>Lombardini</expan> </choice> </persName></add> aveva cercato 
+						<lb n="15"/>mentre a tavola spiegava <del rend="strikethrough" hand="author">il</del> l'orga- 
+						<lb break="no" n="16"/>nizzazione del <orgName xml:id="FrNaz"> <choice> <abbr type="suspension"> Fr. N. </abbr> <expan> Fronte nazionale </expan> </choice> </orgName> <add place="above" hand="author"><persName xml:id="JL"> <choice><abbr><add rend="above">L</add></abbr>  <expan>Lombardini</expan> </choice> </persName></add> aveva cercato 
 						<lb n="17"/>di aprire i calzoni del proprio vi-
 						<lb break="no" n="18"/>cino e poi gli aveva proposto di 
 						<lb n="19"/>andare a letto insieme. Lo scandalo 
-						<lb n="20"/>si è diffuso a <placeName> <sic> Vacera </sic> <corr> Vaccera </corr> </placeName> e agli <orgName> Ivert </orgName>.
-						<lb n="21"/>A <placeName> Rorà </placeName> saluto <persName> Lo <choice> <abbr type="suspension"> B. </abbr> <expan> Bue </expan> </choice> </persName> che, <del rend="overstrike" hand="author"> <unclear reason="illegible" confidence="low"> carro </unclear> </del>
+						<lb n="20"/>si è diffuso a <placeName xml:id="ColVCC"> <sic> Vacera </sic> <corr hand="VB"> Vaccera </corr> </placeName> e agli <orgName xml:id="GrIv"> Ivert </orgName>.
+						<lb n="21"/>A <placeName xml:id="RR"> Rorà </placeName> saluto <persName xml:id="FLB"> Lo <choice> <abbr type="suspension"> B. </abbr> <expan> Bue </expan> </choice> </persName> che, <del rend="overstrike" hand="author"> <unclear reason="illegible" confidence="low"> carro </unclear> </del>
 						<lb n="22"/>sfuggito all'arresto pochi giorni fa, 
-						<lb n="23"/>abbandona <placeName> <choice><abbr  type="suspension"> T. </abbr> <expan> Torre </expan> </choice> Pellice </placeName>. Con lui 
+						<lb n="23"/>abbandona <placeName xml:id="TPel"> <choice><abbr  type="suspension"> T. </abbr> <expan> Torre </expan> </choice> Pellice </placeName>. Con lui 
 					</ab>
 				
 				
@@ -377,26 +377,26 @@
 						<lb break="no" n="1"/> la valle perde il migliore elemento. 
 						<lb n="2"/>Ci salutiamo piuttosto commossi; 
 						<lb n="3"/>incerti se ci vedremo ancora. Lungo 
-						<lb break="no" n="4"/>la strada, da <placeName> Rorà </placeName> agli <orgName> Ivert </orgName> <persName> <choice> <abbr type="suspension"> Leo-
+						<lb break="no" n="4"/>la strada, da <placeName xml:id="RR"> Rorà </placeName> agli <orgName xml:id="GrIv"> Ivert </orgName> <persName xml:id="LC"> <choice> <abbr type="suspension"> Leo-
 						<lb break="no" n="5"/> nard </abbr> <expan> Leonardo </expan> </choice> </persName> mi riempie la testa di intrighi 
 						<lb n="6"/> e pettegolezzi, insistendo perché proceda 
 						<lb n="7"/> con	energia contro gli ufficiali.
 						<lb n="8"/> Giunto alla base, quasi <num type="cardinal" value="5"> 5 </num> ore di 
-						<lb n="9"/>discussione. prima su <del rend="overstrike" hand="author"> <sic> que </sic> </del> problemi 
+						<lb n="9"/>discussione. prima su <del rend="overstrike" hand="author">que</del> problemi 
 						<lb n="10"/> generali - episodio del razzo – 
 						<lb n="11"/> necessità di fare la tregua per 
 						<lb n="12"/> romperla al momento opportuno 
 						<lb n="13"/> (ma i fascisti come non comprende-
 						<lb break="no" n="14"/> ranno un trucco così grossolano?) 
-						<lb n="15"/> poi, dopo cena, <persName> Sergio </persName>, informato 
+						<lb n="15"/> poi, dopo cena, <persName xml:id="SerSer"> Sergio </persName>, informato 
 						<lb n="16"/> della lettera, mi chiede spiega-
 						<lb break="no" n="17"/>zioni in proposito. <ref target="#notaAggiunta"></ref> Faccio chia-
-						<lb break="no" n="18"/> mare <persName> <choice> <abbr type="suspension"> G. </abbr> <expan> Giorgio </expan> </choice> </persName> e Te come testimoni 
+						<lb break="no" n="18"/> mare <persName xml:id="GA"> <choice> <abbr type="suspension"> G. </abbr> <expan> Giorgio </expan> </choice> </persName> e Te come testimoni 
 						<lb n="19"/> per guadagnare qualche minuto.
 
 						<add xml:id="notaAggiunta" place="bottom"> 
 							<lb n="20"/>Geo, sottoposto prima, me assente, a un interrogatorio di
-							<lb n="21"/><num type="cardinal" value="3">3 </num> <add rend="above">o</add> grado, si comporta bene: dice solo di rivolgersi a me e 
+							<lb n="21"/><num type="cardinal" value="3">3</num><add rend="above">o</add> grado, si comporta bene: dice solo di rivolgersi a me e 
 							<lb n="22"/>nega di aver raccolto firme. 
 						</add> 
 

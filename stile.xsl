@@ -12,22 +12,33 @@
                 <title><xsl:value-of select="t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title"/></title>
                 <link href="style.css" rel="stylesheet" type="text/css"/>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+                <script src="https://kit.fontawesome.com/ea04ba946f.js" crossorigin="anonymous"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+                <script src="anime.min.js"></script>
                 <script src="script.js"></script> 
             </head>
 
         <body>
 
+            <div class="menu-sticky">
+                <button type="button" class="menu-button disabled" title="Visualizza estensioni" id="A"> <i class="fa-solid fa-up-right-and-down-left-from-center"></i> </button>
+                <button type="button" class="menu-button disabled" title="Visualizza parti cancellate" id="B"> <i class="fa-solid fa-eraser"></i></button>
+                <button type="button" class="menu-button disabled" title="Visualizza correzioni" id="C"> <i class="fa-regular fa-pen-to-square"></i> </button>
+            </div>
+
             <header>
             <div class="navbar">
                 <div class="left-links">
                     <a href="#">Home</a>
-                    <a href="#page147">Pagina 147</a>
-                    <a href="#page148">Pagina 148</a>
-                    <a href="#page149">Pagina 149</a>
+                    <a href="#p151">Pagina 151</a>
+                    <a href="#p152">Pagina 152</a>
+                    <a href="#p153">Pagina 153</a>
                     <a href="#about">About</a>
                 </div>
             </div>
             </header>
+
+
 
             <div class="container" name="intro">
                 <div class="info-box">
@@ -112,19 +123,7 @@
                 
 
             </div>
-        <div class="container">
-            <div class="info-box glossario">
-                <h2>Glossario</h2>
-                <p> Questa sezione contiene approfondimenti riguardanti persone, luoghi ed associazioni citate all'interno delle pagine codificate.</p>
-                <br />
-                <h4>Personaggi:</h4>
-                    <xsl:apply-templates select="//t:listPerson"/>
-                <h4>Luoghi:</h4>
-                <xsl:apply-templates select="//t:listPlace/t:place"/>
-                <h4>Associazioni:</h4>
-                <xsl:apply-templates select="//t:listOrg/t:org"/>
-            </div>
-        </div>
+
 
         <!--PAGINA 147-->
 
@@ -184,6 +183,19 @@
         </section>
 
 
+        <div class="container">
+            <div class="info-box glossario">
+                <h2>Glossario</h2>
+                <p> Questa sezione contiene approfondimenti riguardanti persone, luoghi ed associazioni citate all'interno delle pagine codificate.</p>
+                <br />
+                <h4>Personaggi:</h4>
+                    <xsl:apply-templates select="//t:listPerson"/>
+                <h4>Luoghi:</h4>
+                <xsl:apply-templates select="//t:listPlace/t:place"/>
+                <h4>Associazioni:</h4>
+                <xsl:apply-templates select="//t:listOrg/t:org"/>
+            </div>
+        </div>
 
             <footer>
                 <p>
@@ -206,45 +218,96 @@
  <!-- Template cancellature -->
 
    <xsl:template match="//t:del">
-      <span class="del" style = "display: none; color: #af4bfc; text-decoration: underline">
-         <xsl:value-of select="current()"/>
+      <span class="del hidden">
+         <xsl:value-of select="node()"/>
       </span>
    </xsl:template>
+
+
+ <!-- Template "sic" -->
+    <xsl:template match="t:sic">
+        <span class="sic hidden">
+            <xsl:apply-templates select="node()"/>
+        </span>
+    </xsl:template>
+
+    
+<!-- Template correzioni -->
+
+    <xsl:template match="t:corr">
+            <span class="corr">
+            <xsl:apply-templates select="node()"/>
+            </span>
+    </xsl:template>
+    
+ <!-- Template abbreviazioni -->
+    <xsl:template match="t:abbr">
+            <span class="abbr">
+            <xsl:apply-templates select="node()"/>
+            </span>
+    </xsl:template>
+
+ <!-- Template forme estese -->
+    <xsl:template match="t:expan">
+            <span class="expan hidden">
+            <xsl:apply-templates select="node()"/>
+            </span>
+    </xsl:template>
+
 
 <!-- Template gap -->
 
     <xsl:template match="//t:gap[@reason='illegible']">
       <span class="gap">
-          <i class="fas fa-exclamation-circle"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
       </span>
    </xsl:template>
 
-<!-- Template sostituzioni per correzioni e abbreviazioni -->
+<!-- Template unclear -->
+
+    <xsl:template match="//t:unclear">
+      <span class="unclear">
+          <xsl:apply-templates select="node()"/>
+      </span>
+   </xsl:template>
+
+<!-- Template scelte -->
     <xsl:template match="//t:choice">
         <span class="choice">
-        <xsl:if test="t:sic">
-            <span class="sic">
-                <xsl:value-of select="t:sic"/>
-            </span>
-        </xsl:if>
-        <xsl:if test="t:corr">
-            <span class="corr">
-                <xsl:value-of select="t:corr"/>
-            </span>
-        </xsl:if>
-        <xsl:if test="t:abbr">
-            <span class="abbr">
-                <xsl:value-of select="t:expan"/>
-            </span>
-        </xsl:if>
-        <xsl:if test="t:expan">
-            <span class="expan">
-                <xsl:value-of select="t:abbr"/>
-            </span>
-        </xsl:if>
+            <xsl:apply-templates select="node()"/>
         </span>
     </xsl:template>
 
+<!-- Template per persone apparse nel testo -->
+    <xsl:template match="t:persName">
+        <a class="collegamento">
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat('#', @xml:id)"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="node()"/>
+        </a>
+    </xsl:template>
+
+<!-- Template per persone apparse nel testo -->
+    <xsl:template match="t:placeName">
+        <a class="collegamento">
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat('#', @xml:id)"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="node()"/>
+        </a>
+    </xsl:template>
+
+
+<!-- Template per persone apparse nel testo -->
+    <xsl:template match="t:orgName">
+        <a class="collegamento">
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat('#', @xml:id)"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="node()"/>
+        </a>
+    </xsl:template>
 
        <!--template list-->
     <xsl:template match="t:list">
@@ -265,7 +328,7 @@
   <!--template persone-->
     <xsl:template match="t:person">
         <p>
-            <a href="{t:persName/t:ref/@target}" target="_blank">
+            <a href="{t:persName/t:ref/@target}"  id="{@xml:id}"  target="_blank">
                 <xsl:value-of select="concat(t:persName/t:forename, ' ', t:persName/t:surname)"/>
             </a>  - <xsl:value-of select="t:persName/@role"/>
         </p>
@@ -275,52 +338,37 @@
    <!--template luoghi-->
     <xsl:template match="t:place">
         <div>
-            <strong><xsl:value-of select="t:placeName"/></strong> - <xsl:value-of select="t:settlement"/>, <xsl:value-of select="t:country"/>
+            <a href="{@target}" id="{@xml:id}" target="_blank"> <xsl:value-of select="t:placeName"/></a> - <xsl:value-of select="t:settlement"/>, <xsl:value-of select="t:country"/>
         </div>
     </xsl:template>
 
    <!-- template associazioni -->
     <xsl:template match="t:org">
       <p>
-         <strong><xsl:value-of select="t:orgName"/></strong>
+         <a href="{@target}" id="{@xml:id}" target="_blank"><xsl:value-of select="t:orgName"/></a>
          <br/>
          <xsl:value-of select="t:desc"/>
       </p>
     </xsl:template>
 
  <!--Template aggiunte-->
-    <xsl:template match="t:add">
-        <xsl:choose>
-            <!--Aggiunte sopra-->
-            <xsl:when test="@place ='above'" >
-                <xsl:copy>
-                    <span class="add-a" style="background: lightcoral; display:none">
-                        <xsl:apply-templates select="node()" />
-                        <!-- Applica lo stile di choice all'elemento choice -->
-                        <xsl:apply-templates select="choice" />
-                    </span>
-                </xsl:copy>
-            </xsl:when>
-         
-            <!--Aggiunte sotto-->
-            <xsl:when test="@place ='below'">
-                <span class="add-b" style="background: lightcoral; display:none">
-                    <xsl:apply-templates select="node()" />
-                </span>
-            </xsl:when> 
-            <!--Aggiunte in linea-->
-            <xsl:when test="@place ='inline'">
-                <span class="add-i" style="background: lightcoral; display:none">
-                    <xsl:apply-templates select="node()" />
-                </span>
-            </xsl:when>
-            <!--Aggiunta -->
-            <xsl:when test="@place ='margin right inspace'">
-                <span class="add-mri" style="background: lightcoral; display:none">
-                    <xsl:apply-templates select="node()" />
-                </span>
-            </xsl:when>
-        </xsl:choose>  
+    <xsl:template match="t:add[@rend='above']">
+        <span class="add above">
+            <xsl:apply-templates select="node()" />
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="t:add[@place='bottom']">
+        <div class="note">
+            <xsl:attribute name="id">
+                <xsl:value-of select="concat('#', @xml:id)"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="node()" />
+        </div>
+    </xsl:template>
+
+    <xsl:template match="t:ref[@target='#notaAggiunta']">
+        <i id="shownote" class="fa-solid fa-triangle-exclamation"></i>
     </xsl:template>
 
 </xsl:stylesheet>
