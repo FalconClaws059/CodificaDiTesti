@@ -209,6 +209,11 @@ button:hover {
     color: #666;
 }
 
+.glossario span{
+    color: #222;
+    font-weight: bold;
+}
+
 .glossario h4 {
     color: #007bff;
 }
@@ -219,7 +224,7 @@ button:hover {
 }
 
 .glossario a {
-    font-weight: bold;
+    font-weight: bolder;
     color: #000;
     text-decoration: none;
     border-bottom: 1px dashed #444;

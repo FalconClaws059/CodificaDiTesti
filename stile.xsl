@@ -139,7 +139,7 @@
     
             <div class="text-container">
                 <div class="encoded-text">
-                    <xsl:apply-templates select="//t:ab[@xml:id='p151']"/>
+                    <xsl:apply-templates select="//t:ab[@corresp='p151']"/>
                 </div>
             </div>
         </section>
@@ -150,7 +150,7 @@
             <div class="pageNum">Pagina 152</div>
             <div class="text-container">
                 <div class="encoded-text">
-                    <xsl:apply-templates select="//t:ab[@xml:id='p152']"/>
+                    <xsl:apply-templates select="//t:ab[@corresp='p152']"/>
                 </div>
             </div>
 
@@ -177,7 +177,7 @@
     
             <div class="text-container">
                 <div class="encoded-text">
-                    <xsl:apply-templates select="//t:ab[@xml:id='p153']"/>
+                    <xsl:apply-templates select="//t:ab[@corresp='p153']"/>
                 </div>
             </div>
         </section>
@@ -282,7 +282,7 @@
     <xsl:template match="t:persName">
         <a class="collegamento">
             <xsl:attribute name="href">
-                <xsl:value-of select="concat('#', @xml:id)"/>
+                <xsl:value-of select="concat('#', @corresp)"/>
             </xsl:attribute>
             <xsl:apply-templates select="node()"/>
         </a>
@@ -292,7 +292,7 @@
     <xsl:template match="t:placeName">
         <a class="collegamento">
             <xsl:attribute name="href">
-                <xsl:value-of select="concat('#', @xml:id)"/>
+                <xsl:value-of select="concat('#', @corresp)"/>
             </xsl:attribute>
             <xsl:apply-templates select="node()"/>
         </a>
@@ -303,7 +303,7 @@
     <xsl:template match="t:orgName">
         <a class="collegamento">
             <xsl:attribute name="href">
-                <xsl:value-of select="concat('#', @xml:id)"/>
+                <xsl:value-of select="concat('#', @corresp)"/>
             </xsl:attribute>
             <xsl:apply-templates select="node()"/>
         </a>
@@ -325,7 +325,7 @@
         </li>
     </xsl:template>
 
-  <!--template persone-->
+  <!--template lista persone-->
     <xsl:template match="t:person">
         <p>
             <a href="{t:persName/t:ref/@target}"  id="{@xml:id}"  target="_blank">
@@ -335,17 +335,17 @@
         
     </xsl:template>
 
-   <!--template luoghi-->
+   <!--template lista luoghi-->
     <xsl:template match="t:place">
         <div>
-            <a href="{@target}" id="{@xml:id}" target="_blank"> <xsl:value-of select="t:placeName"/></a> - <xsl:value-of select="t:settlement"/>, <xsl:value-of select="t:country"/>
+            <span id="{@xml:id}" > <xsl:value-of select="t:placeName"/></span> - <xsl:value-of select="t:settlement"/>, <xsl:value-of select="t:country"/>
         </div>
     </xsl:template>
 
-   <!-- template associazioni -->
+   <!-- template lista associazioni -->
     <xsl:template match="t:org">
       <p>
-         <a href="{@target}" id="{@xml:id}" target="_blank"><xsl:value-of select="t:orgName"/></a>
+         <span id="{@xml:id}"><xsl:value-of select="t:orgName"/></span>
          <br/>
          <xsl:value-of select="t:desc"/>
       </p>
